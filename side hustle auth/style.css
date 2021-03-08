@@ -9,9 +9,16 @@ body {
   line-height: 1.2;
 }
 
-h1 {
-  margin: 0.5rem 0;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0.75rem 0;
   color: black;
+}
+
+li {
+  list-style: none;
 }
 
 .container {
@@ -36,7 +43,7 @@ h1 {
   width: 60%;
 }
 
-button {
+.btn {
   padding: 0.7rem 1.5rem;
   margin: 1rem 0;
   background-color: rgb(51, 148, 51);
@@ -47,4 +54,27 @@ button {
   border-radius: 5px;
   width: 30%;
   cursor: pointer;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  cursor: pointer;
+  padding: 0.25rem;
+  margin: 0.5rem 0;
+}
+
+.error {
+  color: red;
+  display: block;
+}
+.input {
+  margin: 2% 0;
+}
+.input label {
+  display: block;
 }
